@@ -12,14 +12,14 @@ I decided to participate in the challenge portfolio, because I'm convinced it's 
 
 ### **Subtask 1** Searching for selectors on the login pageList all the elements that are on the login page.
 
-**Selector 1 (Login)**
+**login_field_xpath**
 
 //*[@id="login"]
 
-**Selector 2 (Password)**
+**password_field_xpath**
 
 //*[@id="password"]
 
-**Selector 3 (Language)**
+**sign_in_button_xpath**
 
-//*[@id="__next"]/form/div/div[2]/div/div
+//*[@id="__next"]/form/div/div[2]/button/span[1]
