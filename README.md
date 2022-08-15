@@ -15,7 +15,9 @@ I decided to participate in the challenge portfolio, because I'm convinced it's 
 **scouts_panel_header_xpath**
 
 //*[@id="__next"]/form/div/div[1]/h5
+
 //*[text()='Scouts Panel']
+
 //h5[@class='MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom']
 
 **login_field_xpath**
@@ -29,19 +31,25 @@ I decided to participate in the challenge portfolio, because I'm convinced it's 
 **remind_password_hyperlink_xpath**
 
 //*[@id="__next"]/form/div/div[1]/a
+
 //*[text()="Remind password"]
+
 //child::div/a
 
 **language_button_xpath**
 
 //*[@id="__next"]/form/div/div[2]/div/div
+
 //div[@class='MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input']
+
 //*[text()='English']
 
 **sign_in_button_xpath**
 
 //*[@id="__next"]/form/div/div[2]/button/span[1]
+
 //*[text()='Sign in']
+
 //span[@class='MuiButton-label']
 
 
